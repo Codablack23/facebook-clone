@@ -1,6 +1,6 @@
 export default function Header(){
     return(
-        <header className="p-2 px-5 bg-white shadow items-center flex sticky top-0 ">
+        <header className="p-2 px-5 bg-white shadow items-center flex sticky top-0 z-[100]">
           <div>
             <i className="bi bi-facebook text-blue-600 text-4xl"></i>
           </div>

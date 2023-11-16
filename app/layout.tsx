@@ -4,6 +4,7 @@ import './globals.css'
 import React from "react"
 const inter = Inter({ subsets: ['latin'] })
 import "bootstrap-icons/font/bootstrap-icons.min.css"
+import AuthContextProvider from './context/AuthContext'
 
 export const metadata: Metadata = {
   title: 'Facebook Clone',
@@ -17,7 +18,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-gray-200` }>{children}</body>
+      <body className={`${inter.className} bg-gray-200` }>
+        <AuthContextProvider>
+           {children}
+        </AuthContextProvider>
+      </body>
     </html>
   )
 }

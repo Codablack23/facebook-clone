@@ -10,7 +10,7 @@ export default function PostHeader(props:PostHeaderProps){
       }
     }
     return (
-        <div className="bg-white rounded-md shadow-sm">
+        <div className="bg-white sticky top-0 rounded-md shadow-sm">
             <header className="p-3 border-b">
                 <p className="text-2xl font-semibold">Posts</p>
             </header>

@@ -27,10 +27,10 @@ export default function Post(props:PostProps){
         }
       </div>
       <div className="flex flex-wrap gap-1 my-2">
-        <div className="flex-1 min-w-[250px] h-40 bg-gray-200 rounded-md"></div>
-        <div className="flex-1 min-w-[250px] h-40 bg-gray-200 rounded-md"></div>
-        <div className="flex-1 min-w-[250px] h-40 bg-gray-200 rounded-md"></div>
-        <div className="flex-1 min-w-[250px] h-40 bg-gray-200 rounded-md"></div>
+        <div className="flex-1 min-w-[180px] md:min-w-[250px] h-40 bg-gray-200 rounded-md"></div>
+        <div className="flex-1 min-w-[180px] md:min-w-[250px] h-40 bg-gray-200 rounded-md"></div>
+        <div className="flex-1 min-w-[180px] md:min-w-[250px] h-40 bg-gray-200 rounded-md"></div>
+        <div className="flex-1 min-w-[180px] md:min-w-[250px] h-40 bg-gray-200 rounded-md"></div>
       </div>
       <div className="my-2 flex py-2 border-b">
        <div className="flex items-center gap-1">

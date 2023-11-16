@@ -6,18 +6,18 @@ interface ProfileHeaderProps{
 
 export default function ProfileHeader(props:ProfileHeaderProps){
    return (
-    <header className="bg-gradient-to-b min-h-[450px] from-gray-600 via-white via-40% to-90% to-white">
+    <header className="bg-gradient-to-b min-h-[300px] md:min-h-[450px] from-gray-600 via-white via-40% to-90% to-white">
     <div className="max-w-5xl mx-auto">
-      <div className="bg-gray-200 min-h-[300px] rounded-b-md">
+      <div className="bg-gray-200 min-h-[200px] md:min-h-[300px] rounded-b-md">
       </div>
       <div className="max-w-4xl mx-auto">
-      <div className="-my-16 flex gap-5">
+      <div className="-my-16 flex flex-col items-center md:flex-row gap-5">
         <div>
           <div className="h-[180px] flex items-center justify-center w-[180px] bg-white rounded-full">
             <div className="h-[170px] w-[170px] bg-gray-200 rounded-full"></div>
           </div>
         </div>
-        <div className="mt-20">
+        <div className="md:mt-20 text-center md:text-left">
           <p className="text-3xl font-bold">Edih Ebedamowei</p>
           <p className="text-2xl">(Goodluck)</p>
           <p className="text-gray-500 font-medium">643 friends</p>

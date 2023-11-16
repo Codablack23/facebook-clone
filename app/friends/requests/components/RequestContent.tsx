@@ -3,7 +3,7 @@ import RequestList from "./RequestList";
 
 export default function RequestContent(){
     return (
-        <section className="my-2">
+        <section className="my-2 p-2">
             <RequestHeader/>
             <RequestList/>
         </section>
