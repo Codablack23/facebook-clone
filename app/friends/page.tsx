@@ -1,11 +1,10 @@
 import MainLayout from "@/app/components/MainLayout";
+import FriendsContent from "./components/FriendsContent";
 
 export default function Home() {
   return (
    <MainLayout activeTab="friends">
-    <div className="bg-white shadow-sm rounded-md p-2 min-h-[200px]">
-
-    </div>
+     <FriendsContent/>
    </MainLayout>
   )
 }
